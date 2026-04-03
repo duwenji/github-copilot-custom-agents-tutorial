@@ -1,0 +1,64 @@
+{
+  "quizSets": [
+    {
+      "id": "custom-agents-basics",
+      "name": "Custom Agents 基礎クイズ",
+      "description": "GitHub Copilot のカスタムエージェントの基本概念、役割、設計原則を学ぶための入門クイズです。",
+      "category": "GitHub Copilot",
+      "icon": "🤖",
+      "questionCount": 1,
+      "difficulty": "beginner",
+      "dataPath": "custom-agents/custom-agents-basics.json",
+      "parentId": null,
+      "group": null,
+      "level": 1,
+      "order": 1,
+      "estimatedLearningTime": "3-5分",
+      "topics": [
+        "custom agents",
+        ".agent.md",
+        "design basics"
+      ]
+    },
+    {
+      "id": "custom-agents-vs-skills",
+      "name": "Custom Agents と Skills の違いクイズ",
+      "description": "Custom Agents、Skills、MCP の役割の違いを理解するための比較クイズです。",
+      "category": "GitHub Copilot",
+      "icon": "⚖️",
+      "questionCount": 2,
+      "difficulty": "beginner",
+      "dataPath": "custom-agents/custom-agents-vs-skills.json",
+      "parentId": null,
+      "group": null,
+      "level": 1,
+      "order": 2,
+      "estimatedLearningTime": "5-7分",
+      "topics": [
+        "skills",
+        "mcp",
+        "comparison"
+      ]
+    },
+    {
+      "id": "custom-agents-best-practices",
+      "name": "Custom Agents ベストプラクティスクイズ",
+      "description": "description、tools、単一責務など、設計の良い実践を確認するためのクイズです。",
+      "category": "GitHub Copilot",
+      "icon": "✅",
+      "questionCount": 2,
+      "difficulty": "beginner",
+      "dataPath": "custom-agents/custom-agents-best-practices.json",
+      "parentId": null,
+      "group": null,
+      "level": 1,
+      "order": 3,
+      "estimatedLearningTime": "5-7分",
+      "topics": [
+        "best practices",
+        "description",
+        "tools"
+      ]
+    }
+  ]
+}

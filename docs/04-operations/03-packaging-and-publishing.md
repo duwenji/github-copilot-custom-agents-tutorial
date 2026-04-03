@@ -16,6 +16,7 @@
 - `.github/skills-config/quiz-generator/`
 - `.github/workflows/validate.yml`
 - `.github/workflows/pages.yml`
+- `quiz-output/`（検証用のサンプルクイズデータを保持）
 - `package.json`
 
 これにより、参照元の `github-copilot-skills-tutorial` に近い導線を保てます。

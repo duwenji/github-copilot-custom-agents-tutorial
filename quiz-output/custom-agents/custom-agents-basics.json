@@ -1,0 +1,18 @@
+{
+  "id": "custom-agents-basics",
+  "title": "Custom Agents 基礎クイズ",
+  "questions": [
+    {
+      "id": 1,
+      "question": "GitHub Copilot の Custom Agent が主に定義するものとして最も適切なのはどれですか？",
+      "options": [
+        { "id": "A", "text": "OS の起動順序" },
+        { "id": "B", "text": "役割・制約・使うツール" },
+        { "id": "C", "text": "CPU クロックの最適化" },
+        { "id": "D", "text": "物理ネットワーク配線" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Custom Agent では、いつ使うか、どんな役割を持つか、どのツールを使うか、何をしてはいけないかを整理して定義します。"
+    }
+  ]
+}
