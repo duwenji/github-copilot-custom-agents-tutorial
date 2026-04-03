@@ -1,0 +1,14 @@
+{
+  "name": "github-copilot-custom-agents-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Japanese tutorial repository for learning GitHub Copilot custom agents.",
+  "scripts": {
+    "ebook:build": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/ebook-build/invoke-build.ps1",
+    "quiz:validate": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/quiz-generator/invoke-validate.ps1 -Mode all",
+    "quiz:normalize": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/quiz-generator/invoke-validate.ps1 -Mode normalize"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

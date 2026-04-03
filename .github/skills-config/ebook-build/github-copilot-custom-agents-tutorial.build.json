@@ -1,0 +1,9 @@
+{
+  "sourceRoot": "./docs",
+  "outputDir": "./ebook-output",
+  "projectName": "github-copilot-custom-agents-tutorial",
+  "metadataFile": "./.github/skills-config/ebook-build/github-copilot-custom-agents-tutorial.metadata.yaml",
+  "chapterDirPattern": "^\\d{2}-",
+  "chapterFilePattern": "^.*\\.md$",
+  "coverFile": "00-COVER.md"
+}
