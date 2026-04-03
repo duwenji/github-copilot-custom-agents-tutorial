@@ -33,4 +33,15 @@ GitHub Copilot のカスタムエージェントを使うと、
 
 ---
 
-Version 0.1 | 2026-04-03
+## 本書の特徴
+
+- **初学者向けの章立て**で順番に学べる
+- **実際に動く `.agent.md` サンプル**を含む
+- **eBook / quiz 検証**まで含めた教材リポジトリ構成
+- GitHub 公開済みのため、そのまま参照・再利用しやすい
+
+公開先: `https://github.com/duwenji/github-copilot-custom-agents-tutorial`
+
+---
+
+Version 0.2 | 2026-04-03

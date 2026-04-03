@@ -1,8 +1,15 @@
 # GitHub Copilot カスタムエージェント実践チュートリアル
 
+[![Validate tutorial repo](https://github.com/duwenji/github-copilot-custom-agents-tutorial/actions/workflows/validate.yml/badge.svg)](https://github.com/duwenji/github-copilot-custom-agents-tutorial/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`)** を、基礎から実践まで学ぶ日本語教材です。
 
 > このリポジトリは `github-copilot-skills-tutorial` を参照しつつ、**Skills ではなく Custom Agents に特化**して再構成した学習用プロジェクトです。
+
+- 🌐 **公開リポジトリ**: https://github.com/duwenji/github-copilot-custom-agents-tutorial
+- 📦 **検証済み出力**: `ebook-output/github-copilot-custom-agents-tutorial.epub`
+- 🧩 **共有スキル**: `git submodule update --init --recursive`
 
 ---
 
@@ -26,10 +33,11 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 
 ## クイックスタート
 
-1. `.github/agents/` 配下のサンプルを開く
-2. `docs/00-fundamentals/agent-format-overview.md` を読む
-3. `docs/03-implementation/01-getting-started.md` に沿って自分の agent を作る
-4. 必要なら `npm install` 後に `npm run ebook:build` / `npm run quiz:validate` を使う
+1. `git clone --recursive https://github.com/duwenji/github-copilot-custom-agents-tutorial.git`
+2. `.github/agents/` 配下のサンプルを開く
+3. `docs/00-fundamentals/agent-format-overview.md` を読む
+4. `docs/03-implementation/01-getting-started.md` に沿って自分の agent を作る
+5. 必要なら `npm install` 後に `npm run ebook:build` / `npm run quiz:validate` を使う
 
 現在含まれるサンプル:
 

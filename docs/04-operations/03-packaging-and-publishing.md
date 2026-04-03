@@ -23,12 +23,13 @@
 ## 基本コマンド
 
 ```powershell
+git submodule update --init --recursive
 npm install
 npm run ebook:build
 npm run quiz:validate
 ```
 
-> 実行には、共有スキル群 (`shared-copilot-skills`) が見つかる構成になっている必要があります。
+> 実行前に、共有スキル群 (`shared-copilot-skills`) を **submodule として初期化**しておくのが推奨です。
 
 ---
 
