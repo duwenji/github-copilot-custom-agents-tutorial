@@ -8,7 +8,8 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 > このリポジトリは `github-copilot-skills-tutorial` を参照しつつ、**Skills ではなく Custom Agents に特化**して再構成した学習用プロジェクトです。
 
 - 🌐 **公開リポジトリ**: https://github.com/duwenji/github-copilot-custom-agents-tutorial
-- 📦 **検証済み出力**: `ebook-output/github-copilot-custom-agents-tutorial.epub`
+- � **GitHub Pages**: `https://duwenji.github.io/github-copilot-custom-agents-tutorial/`
+- �📦 **検証済み出力**: `ebook-output/github-copilot-custom-agents-tutorial.epub`
 - 🧩 **共有スキル**: `git submodule update --init --recursive`
 
 ---
@@ -97,6 +98,18 @@ docs/
   03-implementation/
   04-operations/
   05-advanced-topics/
+```
+
+---
+
+## GitHub Pages
+
+このリポジトリには `.github/workflows/pages.yml` を含めており、`main` への push で `docs/` を GitHub Pages にデプロイする構成です。
+
+想定 URL:
+
+```text
+https://duwenji.github.io/github-copilot-custom-agents-tutorial/
 ```
 
 ---

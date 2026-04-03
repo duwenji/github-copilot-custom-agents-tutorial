@@ -14,6 +14,8 @@
 
 - `.github/skills-config/ebook-build/`
 - `.github/skills-config/quiz-generator/`
+- `.github/workflows/validate.yml`
+- `.github/workflows/pages.yml`
 - `package.json`
 
 これにより、参照元の `github-copilot-skills-tutorial` に近い導線を保てます。
@@ -39,6 +41,22 @@ npm run quiz:validate
 - README のリンク切れがないか
 - `.agent.md` サンプルの説明文が具体的か
 - eBook / quiz 出力先が `.gitignore` 対象になっているか
+
+---
+
+## GitHub Pages 公開
+
+この教材では `docs/` を GitHub Pages で公開できるようにしています。
+
+- workflow: `.github/workflows/pages.yml`
+- site entry: `docs/index.md`
+- Jekyll config: `docs/_config.yml`
+
+想定 URL:
+
+```text
+https://duwenji.github.io/github-copilot-custom-agents-tutorial/
+```
 
 ---
 
