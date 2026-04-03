@@ -20,6 +20,11 @@
 - next action
 - evidence
 
+### 5. Agent と Skill を混ぜすぎない
+- Agent は**役割**に集中させる
+- Skill は**再利用手順**に集中させる
+- 毎回同じ確認フローを書くなら Skill 側へ寄せる
+
 ---
 
 ## アンチパターン
