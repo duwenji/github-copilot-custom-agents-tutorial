@@ -10,8 +10,8 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 - 🌐 **公開リポジトリ**: https://github.com/duwenji/github-copilot-custom-agents-tutorial
 - � **GitHub Pages**: `https://duwenji.github.io/github-copilot-custom-agents-tutorial/`
 - �📦 **検証済み出力**: `ebook-output/github-copilot-custom-agents-tutorial.epub`
-- 🧩 **共有スキル**: `git submodule update --init --recursive`
-
+- 🧩 **共有スキル**: `git submodule update --init --recursive`- 🗺️ **Roadmap**: [`ROADMAP.md`](ROADMAP.md)
+- 📝 **Change log**: [`CHANGELOG.md`](CHANGELOG.md)
 ---
 
 ## この教材で学べること
@@ -123,6 +123,16 @@ npm run quiz:validate
 ```
 
 これらは現在のリポジトリで実行確認済みです。
+
+---
+
+## コントリビュート
+
+Issue や改善提案は GitHub の Issue テンプレートから追加できます。
+
+- バグ報告: `.github/ISSUE_TEMPLATE/bug_report.yml`
+- 機能提案: `.github/ISSUE_TEMPLATE/feature_request.yml`
+- PR テンプレート: `.github/pull_request_template.md`
 
 ---
 
