@@ -38,7 +38,7 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 
 1. `git clone --recursive https://github.com/duwenji/github-copilot-custom-agents-tutorial.git`
 2. `.github/agents/` 配下のサンプルを開く
-3. `docs/00-fundamentals/agent-format-overview.md` を読む
+3. `docs/00-fundamentals/00-agent-format-overview.md` を読む
 4. `docs/03-implementation/01-getting-started.md` に沿って自分の agent を作る
 5. 必要なら `npm install` 後に `npm run ebook:build` / `npm run quiz:validate` を使う
 
@@ -60,7 +60,7 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 ## 目次
 
 ### Part 0: 基礎準備
-- [Part 0: `.agent.md` の位置づけ](docs/00-fundamentals/agent-format-overview.md)
+- [Part 0: `.agent.md` の位置づけ](docs/00-fundamentals/00-agent-format-overview.md)
 - [Part 0-4: Customization Map](docs/00-fundamentals/04-customization-map.md)
 
 ### Part 1: 基礎編

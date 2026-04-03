@@ -16,7 +16,7 @@ GitHub Copilot の **Custom Agents (`.github/agents/*.agent.md`)** を、基礎�
 ## 学習ガイド
 
 ### Part 0: 基礎準備
-- [`.agent.md` の位置づけ](00-fundamentals/agent-format-overview.md)
+- [`.agent.md` の位置づけ](00-fundamentals/00-agent-format-overview.md)
 - [Customization Map](00-fundamentals/04-customization-map.md)
 
 ### Part 1: 基礎編

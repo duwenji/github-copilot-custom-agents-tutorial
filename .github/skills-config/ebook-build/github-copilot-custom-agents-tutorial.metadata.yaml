@@ -4,6 +4,8 @@ language: ja-JP
 rights: Copyright (c) Duwenji
 publisher: Duwenji
 date: 2026-04-03
+toc: true
+toc-depth: 2
 identifier: gcopilot-custom-agents-tutorial-v1
 subject:
   - github copilot
