@@ -40,6 +40,8 @@ description: "Use this agent when updating README files, markdown guides, or tut
 
 ## `tools` は絞るほど強い
 
+`tools` は agent の中で自作する関数一覧ではなく、**GitHub Copilot / VS Code が提供する機能のうち、何を使ってよいか** を宣言する設定です。
+
 ツールを増やしすぎると、agent の責務が曖昧になります。
 
 たとえば docs 専用なら:

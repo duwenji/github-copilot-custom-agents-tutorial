@@ -7,6 +7,8 @@
 
 GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`)** を、基礎から実践まで学ぶ日本語教材です。
 
+> この教材でいう `tools` は、`.agent.md` の中で自作する関数ではなく、**GitHub Copilot / VS Code 側のツールランタイムで使える機能・権限** を指します。
+
 > このリポジトリは `github-copilot-skills-tutorial` を参照しつつ、**Skills ではなく Custom Agents に特化**して再構成した学習用プロジェクトです。
 
 - 🌐 **公開リポジトリ**: https://github.com/duwenji/github-copilot-custom-agents-tutorial
@@ -21,6 +23,7 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 - カスタムエージェントとは何か
 - `copilot-instructions.md` / `prompts` / `skills` / `agents` の違い
 - `.agent.md` の基本構造と設計原則
+- `tools` が表す **機能・権限** の考え方
 - 実務で使えるエージェント例
 - チーム共有・レビュー・運用のベストプラクティス
 
