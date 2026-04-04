@@ -11,6 +11,8 @@ GitHub Copilot の **カスタムエージェント (`.github/agents/*.agent.md`
 
 > このリポジトリは `github-copilot-skills-tutorial` を参照しつつ、**Skills ではなく Custom Agents に特化**して再構成した学習用プロジェクトです。
 
+> 🧭 **補完教材:** Agent をチーム標準として運用する際の要件整理、レビュー基準、リリース判定などは [開発プロセス標準化 Skill ライブラリ](https://github.com/duwenji/dev-process-skill-library) と組み合わせると整理しやすくなります。
+
 - 🌐 **公開リポジトリ**: https://github.com/duwenji/github-copilot-custom-agents-tutorial
 - 🌍 **GitHub Pages**: `https://duwenji.github.io/github-copilot-custom-agents-tutorial/`
 - 📦 **検証済み出力**: `ebook-output/github-copilot-custom-agents-tutorial.epub`
