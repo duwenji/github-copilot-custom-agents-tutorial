@@ -1,0 +1,26 @@
+title: GitHub Copilot Custom Agents Tutorial
+subtitle: カスタムエージェント設計と実装を段階的に学ぶハンズオン
+description: >
+  GitHub Copilot の Custom Agents を題材に、役割設計、プロンプト制御、ツール制限、検証方法を実践的に学ぶ日本語チュートリアルです。
+  エージェントの振る舞いを安定させるための設計パターンと、開発現場で活用するための具体例をまとめています。
+keywords:
+  - GitHub Copilot
+  - Custom Agents
+  - Agent Design
+  - Prompt Engineering
+  - VS Code
+  - AI Development
+  - Tutorial
+categories:
+  - Computers / Software Development / Tools
+  - Computers / Programming / General
+  - Computers / Artificial Intelligence / General
+listPrice: "1680 JPY"
+royaltyPlan: "70%"
+territories: Worldwide
+kdpSelect: "No"
+ageRange: 指定なし
+gradeRange: 指定なし
+trimSize: "6in x 9in"
+bleed: "No bleed"
+layout: fixed-layout PDF
