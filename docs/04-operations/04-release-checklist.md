@@ -11,7 +11,6 @@
 
 - [ ] `npm install` が完了している
 - [ ] `npm run ebook:build` が成功する
-- [ ] `npm run quiz:validate` が成功する
 - [ ] 生成された EPUB の目視確認をした
 
 ## 公開準備

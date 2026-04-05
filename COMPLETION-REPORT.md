@@ -3,7 +3,7 @@
 ## Current status
 - 教材本文を `docs/` 配下へ集約
 - `docs/00-COVER.md` と `docs/00-*` / `docs/01-*` 以降の構成を統一
-- `ebook-output/` と `quiz-output/` を既存の生成物ディレクトリとして維持
+- `ebook-output/` を既存の生成物ディレクトリとして維持
 
 ## Structure summary
 | セクション | パス |

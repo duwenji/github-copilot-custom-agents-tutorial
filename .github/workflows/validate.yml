@@ -27,9 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate quiz data
-        run: npm run quiz:validate
-
       - name: Build ebook artifact
         run: npm run ebook:build
 

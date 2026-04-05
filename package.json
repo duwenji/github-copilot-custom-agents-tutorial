@@ -11,11 +11,6 @@
   },
   "homepage": "https://github.com/duwenji/github-copilot-custom-agents-tutorial",
   "scripts": {
-    "ebook:build": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/ebook-build/invoke-build.ps1",
-    "quiz:validate": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/quiz-generator/invoke-validate.ps1 -Mode all",
-    "quiz:normalize": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/quiz-generator/invoke-validate.ps1 -Mode normalize"
-  },
-  "devDependencies": {
-    "ajv": "^8.17.1"
+    "ebook:build": "powershell -ExecutionPolicy Bypass -File ./.github/skills-config/ebook-build/invoke-build.ps1"
   }
 }

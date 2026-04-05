@@ -36,7 +36,6 @@
 
 ```powershell
 npm install
-npm run quiz:validate
 npm run ebook:build
 ```
 

@@ -1,8 +1,6 @@
 node_modules/
 ebook-output/
 cover-output/
-# quiz source data is version-controlled for validation
-quiz-output/**/*.analysis.json
 .DS_Store
 Thumbs.db
 *.log

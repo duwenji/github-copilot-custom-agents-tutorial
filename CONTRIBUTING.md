@@ -21,7 +21,6 @@ git submodule update --init --recursive
 以下のコマンドが通ることを推奨します。
 
 ```powershell
-npm run quiz:validate
 npm run ebook:build
 ```
 
@@ -38,5 +37,5 @@ PR では次を確認してください。
 
 - リンク切れがない
 - 用語が一貫している
-- quiz / ebook の導線が崩れていない
+- docs / ebook の導線が崩れていない
 - 変更理由が要約されている

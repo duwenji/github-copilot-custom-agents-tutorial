@@ -2,24 +2,22 @@
 
 ## この教材リポジトリの方針
 
-このリポジトリでは、将来的に以下の形で再利用しやすくすることを想定しています。
+このリポジトリでは、以下の形で再利用しやすくすることを想定しています。
 
 - Markdown ベースの教材として読む
 - eBook としてビルドする
-- Quiz データとして検証・配布する
+- GitHub Pages で公開する
 
 ---
 
 ## 用意したファイル
 
 - `.github/skills-config/ebook-build/`
-- `.github/skills-config/quiz-generator/`
 - `.github/workflows/validate.yml`
 - `.github/workflows/pages.yml`
-- `quiz-output/`（検証用のサンプルクイズデータを保持）
 - `package.json`
 
-これにより、参照元の `github-copilot-skills-tutorial` に近い導線を保てます。
+これにより、教材の build と公開導線をシンプルに保てます。
 
 ---
 
@@ -29,7 +27,6 @@
 git submodule update --init --recursive
 npm install
 npm run ebook:build
-npm run quiz:validate
 ```
 
 > 実行前に、共有スキル群 (`shared-copilot-skills`) を **submodule として初期化**しておくのが推奨です。
@@ -41,7 +38,7 @@ npm run quiz:validate
 - 章番号がそろっているか
 - README のリンク切れがないか
 - `.agent.md` サンプルの説明文が具体的か
-- eBook / quiz 出力先が `.gitignore` 対象になっているか
+- eBook / cover 出力先が `.gitignore` 対象になっているか
 
 ---
 
