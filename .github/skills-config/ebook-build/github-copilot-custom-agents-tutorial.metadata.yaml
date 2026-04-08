@@ -1,14 +1,33 @@
-title: GitHub Copilot Custom Agents Tutorial
-creator: 杜 文吉
+title: "GitHub Copilot Custom Agents Tutorial"
+subtitle: "カスタムエージェント設計と実装を段階的に学ぶハンズオン"
+creator: "杜 文吉"
+date: "2026-04-03"
 language: ja-JP
-rights: Copyright (c) Duwenji
-publisher: Duwenji
-date: 2026-04-03
+publisher: "GitHub"
+rights: "Creative Commons Attribution 4.0 International License"
+identifier: "github-copilot-custom-agents-tutorial-v1"
+description: |
+  GitHub Copilot の Custom Agents を題材に、役割設計、プロンプト制御、ツール制限、
+  検証方法を実践的に学ぶ日本語チュートリアルです。
+  エージェントの振る舞いを安定させるための設計パターンと、
+  開発現場で活用するための具体例をまとめています。
+keywords:
+  - GitHub Copilot
+  - Custom Agents
+  - Agent Design
+  - Prompt Engineering
+  - VS Code
+  - AI Development
+  - Tutorial
+cover: "00-COVER.md"
 toc: true
 toc-depth: 2
-identifier: gcopilot-custom-agents-tutorial-v1
-subject:
-  - github copilot
-  - custom agents
-  - tutorial
-  - agent design
+chapters:
+  auto-discover: true
+  dir-pattern: "^\\d{2}-"
+  file-pattern: "^\\d{2}-.*\\.md$"
+include-readme: false
+version: "0.1"
+revision-date: "2026-04-08"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"

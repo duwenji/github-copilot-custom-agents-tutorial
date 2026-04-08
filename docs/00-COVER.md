@@ -1,47 +1,18 @@
-# GitHub Copilot カスタムエージェント実践チュートリアル
+# GitHub Copilot Custom Agents
 
-**はじめての `.agent.md` 設計・活用・運用ガイド**
+## カスタムエージェント実践チュートリアル
 
-GitHub Copilot のカスタムエージェントを使うと、
-単なる都度プロンプトではなく、**役割・制約・使うツール・期待する出力**を整理した専用アシスタントを育てられます。
+GitHub Copilot の Custom Agents を題材に、役割設計、プロンプト制御、ツール制限、運用ルールを
+段階的に学ぶ日本語ハンズオン教材です。
 
-本教材では、初学者を対象に以下を段階的に学びます。
+> 💡 ブラウザで https://duwenji.github.io/spa-quiz-app/ を開くと、関連トピックをクイズ形式で復習できます。
 
-- カスタムエージェントの基本概念
-- `skills` / `prompts` / `instructions` との違い
-- `.github/agents/*.agent.md` の作り方
-- ドキュメント整備、デバッグ、保守作業への応用
-- チームで安全に共有・運用するための原則
+- 著者: 杜 文吉
+- 対象: Copilot 活用を高度化したい開発者 / テックリード
+- テーマ: `.agent.md` / `instructions` / `skills` / governance
 
----
-
-## 本書で学べること
-
-- **Custom Agents の役割**: 何を自動化し、何を任せすぎないか
-- **定義ファイルの読み方**: `description`, `tools`, `model`, `agents` など
-- **設計のコツ**: 単一責務、最小ツール、明確な境界
-- **実践サンプル**: 実用的な `.agent.md` 例と解説
-- **運用方法**: 共有、レビュー、改善サイクル
-
----
-
-## 想定読者
-
-- Copilot を個人開発・チーム開発で活用したい人
-- 既存の `copilot-instructions.md` を一歩進めたい人
-- 独自の役割別エージェントを作りたい人
-
----
-
-## 本書の特徴
-
-- **初学者向けの章立て**で順番に学べる
-- **実際に動く `.agent.md` サンプル**を含む
-- **eBook / quiz 検証**まで含めた教材リポジトリ構成
-- GitHub 公開済みのため、そのまま参照・再利用しやすい
-
-公開先: `https://github.com/duwenji/github-copilot-custom-agents-tutorial`
-
----
-
-Version 0.2 | 2026-04-03
+### この教材で学べること
+- `Custom Agents` の役割と設計原則
+- `.agent.md` の構造と最小ツール設計
+- `instructions` / `skills` / `prompts` の使い分け
+- チームで安全に共有・改善する運用方法
